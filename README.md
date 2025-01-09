@@ -77,7 +77,9 @@ Simulated Distribution of Post-Recovery CAD Rates (5000 Iterations)
 ---
 # References
 
-Place paper here 
+[Draft Paper
+](https://github.com/ShaneSCalder/tariff-cad-volatility-model/blob/main/docs/NavigatingTariffTurbulenceProjecting%20theCanadianDollarunderUSTradePressuresDraft.pdf)
+
 
 ---
 
