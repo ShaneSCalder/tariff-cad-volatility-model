@@ -1,5 +1,11 @@
+
+
 # tariff-cad-volatility-model
 This repository contains a simple Python-based simulation tool for projecting potential changes in the Canadian Dollar (CAD) exchange rate under various tariff and recovery scenarios. Using a combination of parameterized uncertainties (initial drop and post-recovery), the model generates a distribution of possible CAD/USD outcomes and visualizes the results in a histogram.
+
+---
+
+![volCad](https://github.com/user-attachments/assets/a15f9e9e-3f46-4e7e-922b-adc0f28db71b)
 
 ---
 
