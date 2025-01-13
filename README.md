@@ -1,7 +1,7 @@
 
 
 # tariff-cad-volatility-model
-This repository contains a simple Python-based simulation tool for projecting potential changes in the Canadian Dollar (CAD) exchange rate under various tariff and recovery scenarios. Using a combination of parameterized uncertainties (initial drop and post-recovery), the model generates a distribution of possible CAD/USD outcomes and visualizes the results in a histogram.
+This repository contains a simple Python based simulation tool for projecting potential changes in the Canadian Dollar (CAD) exchange rate under various tariff and recovery scenarios. Using a combination of parameterized uncertainties (initial drop and post-recovery), the model generates a distribution of possible CAD/USD outcomes and visualizes the results in a histogram.
 
 ---
 
@@ -10,14 +10,14 @@ This repository contains a simple Python-based simulation tool for projecting po
 ---
 
 # Overview
-In periods of heightened trade tensions—such as potential U.S. tariff implementations—currency fluctuations can pose significant risks for businesses and policymakers. This simulation provides a straightforward way to assess how multiple factors (tariff severity, market uncertainties, and recovery assumptions) might combine to influence the CAD/USD exchange rate.
+In periods of heightened trade tensions such as potential U.S. tariff implementations currency fluctuations can pose significant risks for businesses and policymakers. This simulation provides a straightforward way to assess how multiple factors (tariff severity, market uncertainties, and recovery assumptions) might combine to influence the CAD/USD exchange rate.
 
 The approach uses a simple uniform sampling around mean drop and recovery values, applies a severity_factor for scaling, and visualizes the resulting distribution of possible post-recovery exchange rates.
 
 ---
 
 # Features
-Parameter-based Simulation: Adjust current_rate, initial_drop_mean, recovery_mean, and severity_factor to explore different scenarios.
+Parameter based Simulation: Adjust current_rate, initial_drop_mean, recovery_mean, and severity_factor to explore different scenarios.
 Uncertainty Modeling: Samples from uniform distributions to represent the range of plausible outcomes around the means.
 Histogram Visualization: Quickly see the distribution of simulated CAD rates, including the original (current) rate for comparison.
 Saveable Plot: Outputs the histogram as a PNG file for easy sharing or reporting.
